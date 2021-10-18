@@ -1,0 +1,30 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+body {
+    background-color: powderblue;
+  }
+h1 {
+    color: blue;
+    font-weight: bold;
+}
+h2 {
+    color:black;
+    font-weight: bold;
+}
+p {
+    color: red;
+}
+img {
+    border-radius: 25px;
+    float: left;
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+}
+canvas {
+    border-radius: 25px;
+    border:10px;
+    color: red;
+}
