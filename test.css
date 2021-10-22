@@ -11,6 +11,8 @@ body{
 	border: solid 8px black;
 	text-align: center;
 	background-color: #8E41D5; 
+    opacity: 0.5;
+    
 }
 
 h3{
@@ -52,8 +54,22 @@ a{
 	color: white;
 	font-weight: bold;
 	font-size: 24px;
+    text-decoration: none;
 }
 
+a:hover {
+    background-color: red;
+}
+
+a:active {
+    background-color: blue;
+    font-size: 150%;
+}
+
+a:visited {
+    background-color: yellow;
+    text-decoration: underline;
+}
 ul{
 	list-style-type: none;
 	padding-left: 0px; 
@@ -82,4 +98,5 @@ ul{
 	color:#FFBC00;
 	font-weight: bold;
 	font-size: 20px;
+    opacity: 0.5;
 }
