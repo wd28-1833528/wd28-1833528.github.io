@@ -16,15 +16,29 @@ h2 {
 p {
     color: red;
 }
-img {
+#rounded-border {
     border-radius: 25px;
-    float: left;
-    width: 600px;
-    height: 600px;
     margin: 10px;
+    position:relative;
 }
 canvas {
     border-radius: 25px;
     border:10px;
     color: red;
+}
+
+.text_over_image {
+    top: calc(50% - 24px);
+    left: 0;
+    width: 100%; 
+    color:brown;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    border-style: dotted;
+}
+
+#division {
+    position: relative;
+    text-align: center; 
 }
